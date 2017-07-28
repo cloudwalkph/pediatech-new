@@ -1,0 +1,555 @@
+.intro-header {
+    height: 80vh;
+    min-height: 700px;
+}
+body {
+    font-family: "nunito-light","avenir-light","Arial","sans-serif ITC-regular;";
+}
+.navbar-brand img {
+    cursor: pointer !important;
+}
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+    height: 130px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #585858;
+    padding: 18px 25px;
+    display: block;
+}
+.navbar-default .navbar-nav>li:not(:last-child) {
+    border-right: 1px solid #585858;
+}
+.navbar-default .navbar-nav>li {
+    margin: 50px 0;
+}
+.navbar-right .dropdown-menu {
+    right: auto;
+    left: auto;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>li>a:hover, .navbar-nav>li>a.active {
+    background-color: #00a3de;
+    color: #fff;
+}
+.navbar-default .navbar-nav>.open> .dropdown-menu>li>a:hover {
+    /*background-color: #5DAF82;*/
+    background-color: #48c3f0;
+    color: #fff;
+}
+.dropdown-menu>li>a {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #fff;
+}
+.navbar-default .dropdown-menu {
+    /*background: #3C815B;*/
+    background: #00a3de;
+    min-width: 250px;
+}
+.intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading {
+    color: #696969;
+}
+.intro-header .site-heading h1 {
+    /*font-size: 110px;*/
+    font-size: 81px;
+    /*font-family: 'ITC-bold';*/
+}
+
+.intro-header .site-subheader {
+    font-size: 22px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+.intro-header .about-subheading {
+    color: #696969;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.intro-header .site-heading h1 sup {
+    top: -75px;
+    font-size: 16px;
+}
+.intro-header .site-heading, .intro-header .page-heading {
+    text-align: left;
+}
+
+.intro-header .btn-transparent {
+    border: 5px solid #636363;
+    color: #636363;
+    background: transparent;
+}
+
+.intro-header .btn-transparent:hover {
+    border: 5px solid #636363;
+    color: #fff;
+    background: #636363;
+}
+.separator-gradient {
+    background: linear-gradient(to bottom, rgba(223,223,223,1) 0%,rgba(223,223,223,1) 30%,rgba(223,223,223,0) 100%);
+    height: 30px;
+}
+#main {
+    background: url(/img/bg_footer1.png) no-repeat center bottom fixed;
+    background-size: 100% auto;
+    height: 110vh;
+    min-height: 1100px;
+    position: relative;
+    margin-top: -24px;
+}
+.carousel-text {
+    text-align: center;
+    margin-top: -160px;
+}
+.carousel-text hr {
+    border-top: 2px solid #636363;
+}
+
+footer {
+    /*background: #cf252a;*/
+    background: linear-gradient(to bottom, rgba(0, 163, 222, 0.51) 0%, rgb(0, 163, 222) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#cf252a', endColorstr='#cf252a', GradientType=0);
+    padding: 10px 0 40px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer .img-footer {
+    text-align: left;
+}
+
+footer p {
+    color: #fff;
+}
+
+footer .copyright {
+    font-size: 13px;
+    margin-top: 50px;
+}
+
+footer .novex {
+    font-weight: bolder;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+footer .novex .youtube {
+    border: #fff solid;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.wrap > h1 {
+    color: rgb(221, 142, 22);
+    margin: 14px auto 0;
+}
+#showcase {
+    height: 450px;
+    overflow: visible !important;
+}
+.card {
+    width: 300px;
+    height: 100%;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 20px #00a3de solid;
+}
+
+.card h4 {
+    margin: 10px 20px;
+    color: #00a3de;
+    font-size: 22px;
+}
+.card a {
+    font-size: 18px;
+    display: block;
+}
+.card p {
+    font-size: 15px;
+}
+
+.text-green {
+    /*color: #2b734c;*/
+    color: #00a3de;
+    letter-spacing: 7px;
+}
+
+/******** About page *********/
+/*#main.about-us {*/
+    /*background: url(/img/bg-image.png) no-repeat center bottom fixed;*/
+    /*background-size: 100% auto;*/
+    /*height: 85vh;*/
+    /*min-height: 700px;*/
+    /*position: relative;*/
+/*}*/
+#main .grey-overlay {
+    background: linear-gradient(to bottom, rgba(223,223,223,1) 0%,rgba(223,223,223,1) 20%,rgba(223,223,223,0) 100%);
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.about-products {
+    background-color: #d5d5d5;
+    height: 70vh;
+    min-height: 600px;
+}
+.about-products h1, .about-products p, .about-science h1, .about-science p, .about-science li {
+    color: #696969;
+}
+.about-products h1, .about-science h1 {
+    font-size: 70px;
+    letter-spacing: 2px;
+}
+.about-science li {
+    font-size: 16px;
+}
+.about-science {
+    margin-top: 50px;
+}
+
+/******** Contact page *********/
+#main.contact-us {
+    background: url(/img/bg_footer1.png) no-repeat center bottom fixed;
+    background-size: 100% auto;
+    height: auto;
+    padding-bottom: 200px;
+    position: relative;
+}
+#main.contact-us .text-green {
+    margin-top: 100px;
+    font-size: 3em;
+}
+#main.contact-us input, #main.contact-us textarea {
+    background: #ebebeb;
+    border: 1px solid #d3d3d3;
+    border-radius: 0;
+    color: #636363;
+    font-size: 16px;
+    height: auto;
+    line-height: 18px;
+    padding: 25px 30px;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 20px 0;
+}
+#main.contact-us textarea {
+    resize: none;
+}
+#main.contact-us .btn-success {
+    background-color: #00a3de;
+    border-color: #00a3de;
+    font-size: 18px;
+    padding: 25px;
+}
+
+/******** Technologies page *********/
+#main.eztab  {
+    padding-top: 80px;
+    min-height: 1790px;
+    /*min-height: 1200px;*/
+}
+
+#main.suredose  {
+     padding-top: 80px;
+     min-height: 2440px;
+     /*min-height: 1200px;*/
+ }
+
+#main.tasterite  {
+    padding-top: 80px;
+    min-height: 3189px;
+    /*min-height: 1200px;*/
+}
+
+#main.tftech  {
+    padding-top: 80px;
+    min-height: 1301px;
+    /*min-height: 1200px;*/
+}
+
+#main.zincplus  {
+    padding-top: 80px;
+    min-height: 4305px;
+    /*min-height: 1200px;*/
+}
+
+.video{
+    width: 67%;
+    margin-left: 187px;
+}
+
+#main.technologies .tech-content p {
+    color: #585858;
+}
+
+#main.technologies .tech-content h1 {
+    color: #696969;
+    /*font-size: 55px;*/
+    font-size: 120px;
+    letter-spacing: 5px;
+}
+#main.technologies .tech-content a {
+    color: #50abff;
+    text-decoration: none;
+}
+
+/******** Products page *********/
+.product-details {
+    background: #dfdfdf;
+    padding: 100px 0;
+}
+.product-detail {
+    margin: 0 0 70px;
+}
+.product-detail .icon-container {
+    background: url(/img/icon-container-bg.jpg)repeat-x center left;
+    margin: 0 0 30px;
+}
+.product-detail .icon-container img {
+    background: #dfdfdf;
+    display: inline-block;
+    padding: 0 35px;
+}
+.product-detail .title .title-border {
+    width: 145px;
+    height: 1px;
+    display: block;
+    margin: 65px auto 0;
+}
+.product-details .liverpro-img {
+    margin: auto;
+}
+.product-details p {
+    color: #585858;
+}
+.product-details a {
+    color: #00a3de;
+    text-decoration: none;
+}
+.slide-products li {
+    list-style: none;
+}
+
+.slide-products .item.active .item-triangle, .slide-products .item:hover > .item-triangle {
+    background: url(/img/triangle.png)no-repeat center center;
+}
+.slide-products .item.active .item-color, .slide-products .item:hover .item-color {
+    background-color: #00a3de;
+}
+.slide-products a:hover {
+    text-decoration: none;
+}
+.slide-products .item .item-container {
+    padding: 100px 40px;
+    margin: 16px 0 0;
+}
+.slide-products .item .item-color {
+    position: absolute;
+    top: 16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #59b080;
+    display: block;
+    z-index: 0;
+}
+
+.slide-products .item-triangle {
+    width: 100%;
+    height: 16px;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: block;
+}
+
+.caroufredsel_wrapper{
+    display: block; 
+    text-align: start; 
+    float: none; 
+    top: auto; 
+    right: auto; 
+    bottom: auto; 
+    left: auto; 
+    z-index: auto; 
+    margin: 0px 0px 30px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    height: 290px;
+}
+
+.slide-products {
+    text-align: left; 
+    float: none; 
+    position: absolute; 
+    top: 0px; 
+    right: auto; 
+    bottom: auto; 
+    left: 0px; 
+    margin: 0px; 
+    width: 100%; 
+    height: 290px;
+    padding: 0;
+}
+.item-container .item-title {
+    color: #fff;
+}
+.item-container .item-tagline {
+    color: #4b4b4b;
+    font-weight: bolder;
+    margin-top: 0;
+}
+.slide-products .item-container {
+    position: relative;
+    z-index: 1;
+}
+.references {
+    max-width: 840px;
+}
+.references li {
+    color: #585858;
+    line-height: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+    .intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading {
+        /*padding: 280px 0;*/
+    }
+}
+
+@media (max-width: 1199px) {
+    .carousel-text {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    footer .img-footer {
+        text-align: center;
+    }
+    #main {
+        min-height: 1300px;
+    }
+    footer {
+        padding: 10px 0 0 0;
+    }
+    #main.technologies, #main.contact-us {
+        height: auto;
+        padding-bottom: 400px;
+    }
+    .navbar-default .navbar-toggle {
+         border-color: transparent; 
+    }
+    .navbar.navbar-default .container {
+        width: 100%;
+    }
+    .navbar-default .navbar-brand img {
+        height: 55px;
+        margin: 25px 0;
+    }
+}
+
+@media (max-width: 767px){
+    .navbar-default {
+        background-color: #f8f8f8;
+        border-color: #e7e7e7;
+        height: auto;
+        margin-bottom: 0;
+    }
+    .navbar-default .navbar-nav>li {
+         margin: auto;
+    }
+    .navbar-brand img {
+        height: 45px;
+        margin: 0 25px;
+    }
+    .navbar-nav .open .dropdown-menu>li>a {
+        line-height: 35px;
+    }
+    .navbar-default .navbar-brand img {
+        height: 40px;
+        margin: 0;
+    }
+    
+}
+
+@media (max-width: 520px){
+    .intro-header .site-heading .subheading, .intro-header .page-heading .subheading {
+        font-size: 18px;
+    }
+    .intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading {
+        padding: 150px 0 50px;
+    }
+    .intro-header .site-heading h1, .about-products h1, .about-science h1 {
+        font-size: 55px;
+    }
+    .slide-products .item .item-container {
+        padding: 100px 0;
+    }
+    .item-container .item-title {
+        font-size: 22px;
+    }
+    .item-container .item-tagline {
+        font-size: 15px;
+    }
+    #main.about-us {
+        height: auto;
+        padding-bottom: 400px;
+    }
+    #main.contact-us .text-green, #main.technologies .tech-content h1 {
+        font-size: 50px;
+    }
+    .intro-header .site-heading h1 sup {
+        top: -35px;
+        font-size: 14px;
+    }
+}
+
+.tech-font{
+    font-family: 'ITC-bold';
+}
+
+.tech-content{
+    line-height: 85px;
+    margin-top: 65px;
+}
+
+/*Pediatech*/
+
+.banner1_content{
+    font-family: 'AvantGarde-Md-BT';
+    color: #00a3de;
+    font-size: 2.5rem;
+    margin-left: 99px;
+    margin-top: 83px;
+    margin-left: 56px;
+    font-size: 56px;
+}
+
+.content{
+    margin-left: 60px;
+    margin-top: 23px;
+    font-size: 16px;
+}
+
+.slider_title{
+    font-family: 'AvantGarde-Md-BT';
+    color: #00a3de;
+    margin-top: 48px;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
