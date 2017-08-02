@@ -18,30 +18,30 @@
         </div>
     </header>
 
-        <div class="intro">
-            <div class="row">
-                <div class="col-md-6" style="padding: 46px;">
-                    <div class="col-md">
-                        <h1 class="banner1_content"><b>WHAT DO WE DO?</b></h1>
-                    </div>
+    {{--<div class="intro">--}}
+    {{--<div class="row">--}}
+    {{--<div class="col-md-6" style="padding: 46px;">--}}
+    {{--<div class="col-md">--}}
+    {{--<h1 class="banner1_content"><b>WHAT DO WE DO?</b></h1>--}}
+    {{--</div>--}}
 
-                    <div class="col-md content">
-                        <label style="color:#8d8b8b; font-size: 20px;"><b>Address Children’s Needs</b></label>
-                        {{--<h4 style="color:#8d8b8b;font-size:3vh;line-height: 8vh;" class="AVENIR.TTC;"><b>Address Children’s Needs</b></h4>--}}
-                        <p style="color:#aeaeae; margin-top: 5px;">Our formulations aim to address gaps in pediatric medications to improve children’s compliance and ease of administration.</p>
+    {{--<div class="col-md content">--}}
+    {{--<label style="color:#8d8b8b; font-size: 20px;"><b>Address Children’s Needs</b></label>--}}
+    {{--<h4 style="color:#8d8b8b;font-size:3vh;line-height: 8vh;" class="AVENIR.TTC;"><b>Address Children’s Needs</b></h4>--}}
+    {{--<p style="color:#aeaeae; margin-top: 5px;">Our formulations aim to address gaps in pediatric medications to improve children’s compliance and ease of administration.</p>--}}
 
-                        <label style="color:#8d8b8b; font-size: 20px; margin-top: 10px;"><b>Improve products</b></label>
-                        <p style="color:#aeaeae; margin-top: 5px;">Using various technologies that we’ve developed, our products improve on existing formulations in order to cater to children’s specific needs such as taste and simpler dosing formats.</p>
+    {{--<label style="color:#8d8b8b; font-size: 20px; margin-top: 10px;"><b>Improve products</b></label>--}}
+    {{--<p style="color:#aeaeae; margin-top: 5px;">Using various technologies that we’ve developed, our products improve on existing formulations in order to cater to children’s specific needs such as taste and simpler dosing formats.</p>--}}
 
-                        <label style="color:#8d8b8b; font-size: 20px; margin-top: 10px;"><b>Easier for Everyone</b></label>
-                        <p style="color:#aeaeae; margin-top: 5px;">Our products aim to make the lives of children, parents and healthcare providers easier.</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <img class="img-responsive banner_logo1" src="/img/kid.png">
-                </div>
-            </div>
-        </div>
+    {{--<label style="color:#8d8b8b; font-size: 20px; margin-top: 10px;"><b>Easier for Everyone</b></label>--}}
+    {{--<p style="color:#aeaeae; margin-top: 5px;">Our products aim to make the lives of children, parents and healthcare providers easier.</p>--}}
+    {{--</div>--}}
+    {{--</div>--}}
+    {{--<div class="col-md-6">--}}
+    {{--<img class="img-responsive banner_logo1" src="/img/kid.png">--}}
+    {{--</div>--}}
+    {{--</div>--}}
+    {{--</div>--}}
 
     <!-- Main Content -->
     <div id="main">
@@ -54,24 +54,24 @@
                 <div class="wrap">
                     <div id="showcase" class="noselect">
                         <div class="card">
-                            <img src="/img/carousel1.jpg" class="img-responsive">
-                            <h4 class="tech-font">Nutrition as a Therapeutic Avenue</h4>
-                            <p>
-                                We cater to the needs of patients with unique nutrition requirements by developing products for their therapeutic use.
-                            </p>
-                        </div>
-                        <div class="card">
                             <img src="/img/carousel2.jpg" class="img-responsive">
-                            <h4 class="tech-font">Safe and Effective</h4>
+                            <h4 class="tech-font">Address Children’s Needs</h4>
                             <p>
-                                We formulate without adding any ingredients that could be harmful for the patient or that could aggravate his condition.
+                                Our formulations aim to address gaps in pediatric medications to improve children’s compliance and ease of administration.
                             </p>
                         </div>
                         <div class="card">
                             <img src="/img/carousel3.jpg" class="img-responsive">
-                            <h4 class="tech-font">Precise Formulations</h4>
+                            <h4 class="tech-font">Improve products</h4>
                             <p>
-                                We formulate our products to address specific patient nutritional needs.
+                                Using various technologies that we’ve developed, our products improve on existing formulations in order to cater to children’s specific needs such as taste and simpler dosing formats.
+                            </p>
+                        </div>
+                        <div class="card">
+                            <img src="/img/carousel1.jpg" class="img-responsive">
+                            <h4 class="tech-font">Easier for Everyone</h4>
+                            <p>
+                                Our products aim to make the lives of children, parents and healthcare providers easier.
                             </p>
                         </div>
                     </div>
@@ -97,7 +97,7 @@
                     </div>
                     <div class="col-md-4 text-center">
                         <p class="novex">
-                             Novex Science <br>
+                            Novex Science <br>
                             <a href="https://www.youtube.com/channel/UCmjc-WGwUjjmRAhFXtth0IA" target="_blank"><i class="fa fa-youtube youtube"></i></a>
                         </p>
                     </div>

@@ -8,13 +8,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-sm-12 tech-content">
-                    <div class="text-center">
-                        <h1><img src="/img/suredose-logo.png" alt="Suredose" height="40"></h1>
+                    <div class="">
+                        <h1 class="text-center"><img src="/img/suredose-logo.png" alt="Suredose" height="40"></h1>
                         <span><b style="color:#696969;">The Problem with Suspensions</b></span>
-                        <p>Pediatric medicines in suspension format need to be shaken to ensure uniform drug distribution. A good suspension should (a) be easily redispersed from shaking, (b) remain suspended long enough to administer the dose, and (c) have the desired flow properties.</p>
-                        <p>Some suspensions do not satisfy all of these properties, and are physically unstable. These can manifest in rapid settling and caking of drug particles that are difficult to redisperse. This leads to dose uniformity problems.</p>
+                        <p style="color:#696969; font-size: 18px;">Pediatric medicines in suspension format need to be shaken to ensure uniform drug distribution. A good suspension should (a) be easily redispersed from shaking, (b) remain suspended long enough to administer the dose, and (c) have the desired flow properties.</p>
+                        <p style="color:#696969; font-size: 18px;">Some suspensions do not satisfy all of these properties, and are physically unstable. These can manifest in rapid settling and caking of drug particles that are difficult to redisperse. This leads to dose uniformity problems.</p>
                         <span><b style="color:#696969;">SureDose Technology</b></span>
-                        <p>SureDose patented technology is the world’s only no-shake liquid suspension format that ensures no settling, no packing, and no caking of drug particles in suspension. SureDose combines 3 elements to achieve a stable suspension with excellent drug uniformity – liquid of the right density, polymer with an increased yield value, and micronized drug. SureDose ensures that each dose of medicine is correct and complete every time.(US patent: 7,300,670 B2; Philippines patent: 1-2002-080820).</p>
+                        <p style="color:#696969; font-size: 18px;">SureDose patented technology is the world’s only no-shake liquid suspension format that ensures no settling, no packing, and no caking of drug particles in suspension. SureDose combines 3 elements to achieve a stable suspension with excellent drug uniformity – liquid of the right density, polymer with an increased yield value, and micronized drug. SureDose ensures that each dose of medicine is correct and complete every time.(US patent: 7,300,670 B2; Philippines patent: 1-2002-080820).</p>
                         <span><b style="color:#696969;">SureDose in the Real World</b></span>
                     </div>
                     <div class="col-md-12 text-center">
@@ -23,13 +23,13 @@
                         </div>
                     </div>
 
-                    <div class="col-md-12 text-center video">
-                        <div class="iframe embed-responsive embed-responsive-16by9">
+                    <div class="col-md-12 video">
+                        <div class="text-center iframe embed-responsive embed-responsive-16by9">
                             <iframe alt="Suredose" width="845" height="560" src="https://www.youtube.com/embed/6OvQVVfOHCA" frameborder="0" allowfullscreen></iframe>
                         </div>
 
-                        <p style="text-align: center; color:#696969; font-size: 18px;"><b>Products using the SureDose Technology</b></br>
-                                • Rimaped (Rifampicin) Suspension
+                        <p style="color:#696969; font-size: 18px;"><b>Products using the SureDose Technology</b></br>
+                            • Rimaped (Rifampicin) Suspension
                         </p>
                     </div>
                 </div>
