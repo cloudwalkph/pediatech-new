@@ -19,9 +19,9 @@ Route::get('/about-us', function () {
     return view('about');
 });
 
-Route::get('/contact-us', function () {
-    return view('contact');
-});
+//Route::get('/contact-us', function () {
+//    return view('contact');
+//});
 
 Route::get('/technologies', function () {
     return view('technologies');
@@ -31,7 +31,11 @@ Route::get('/products', function () {
     return view('products');
 });
 
-Route::post('/contact-sender', 'ContactUsController@sendEmail');
+Route::get('/contact-us', function () {
+    return view('contact');
+});
+
+Route::post('/contact-us', 'ContactUsController@sendEmail');
 
 Route::group(['prefix' => 'technologies'], function() {
     Route::get('/', function () {

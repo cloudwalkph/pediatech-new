@@ -21,14 +21,14 @@ $(function() {
             $('#btn-submit').html('<i class="fa fa-spin fa-spinner fa-lg"></i> &nbsp; SEND YOUR MESSAGE');
 
             $.ajax({
-                url: "/contact-sender",
+                url: "/contact-us",
                 type: "POST",
                 data: {
                     _token: token,
                     name: name,
                     contact: phone,
                     email: email,
-                    msg: message,
+                    message: message,
                     'g-recaptcha-response': recaptcha
                 },
                 cache: false,
