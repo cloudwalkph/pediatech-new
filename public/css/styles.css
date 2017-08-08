@@ -69,7 +69,7 @@ body {
 }
 
 .intro-header .site-heading h1 sup {
-    top: -75px;
+    top: -58px;
     font-size: 16px;
 }
 .intro-header .site-heading, .intro-header .page-heading {
@@ -154,7 +154,8 @@ footer .novex .youtube {
 }
 .card {
     width: 300px;
-    height: 100%;
+    height: 110%;
+    /*height: 100%;*/
     text-align: center;
     background-color: #fff;
     border-bottom: 20px #00a3de solid;
@@ -250,21 +251,36 @@ footer .novex .youtube {
 }
 
 /******** Technologies page *********/
+.tech_logo{
+    margin-top: -75px;
+}
+
+.tech_video{
+    /*width: 70%;*/
+    /*margin-left: -25px;*/
+    width: 73%;
+    margin-left: 151px;
+    margin-bottom: 40px;
+}
+
 #main.eztab  {
     padding-top: 80px;
-    min-height: 1790px;
+    min-height: 1400px;
+    /*min-height: 1790px;*/
     /*min-height: 1200px;*/
 }
 
 #main.suredose  {
      padding-top: 80px;
-     min-height: 2440px;
+     min-height: 2291px;
+     /*min-height: 2440px;*/
      /*min-height: 1200px;*/
  }
 
 #main.tasterite  {
     padding-top: 80px;
-    min-height: 3189px;
+    min-height: 3035px;
+    /*min-height: 3189px;*/
     /*min-height: 1200px;*/
 }
 
@@ -276,10 +292,10 @@ footer .novex .youtube {
 
 #main.zincplus  {
     padding-top: 80px;
-    min-height: 4305px;
+    min-height: 4530px;
+    /*min-height: 4305px;*/
     /*min-height: 1200px;*/
 }
-
 .video{
     width: 67%;
     margin-left: 187px;

@@ -31,11 +31,13 @@ Route::get('/products', function () {
     return view('products');
 });
 
-//Route::group(['prefix' => 'technologies'], function() {
-//    Route::get('/phytosome', function () {
-//        return view('technologies.phytosome');
-//    });
-//});
+Route::post('/contact-sender', 'ContactUsController@sendEmail');
+
+Route::group(['prefix' => 'technologies'], function() {
+    Route::get('/', function () {
+        return view('technologies.index');
+    });
+});
 
 Route::get('/technologies/eztab', function (){
     return view('technologies/eztab');

@@ -81,7 +81,7 @@
                         <a href="/products" id="products">Featured Products</a>
                     </li>
                     <li>
-                        <a href="/contact-us" id="contactus">Contact</a>
+                        <a href="/contact-us" id="contactus">Contacts</a>
                     </li>
                 </ul>
             </div>
