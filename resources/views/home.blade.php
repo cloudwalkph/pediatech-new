@@ -51,37 +51,33 @@
                 <h6 class="slider_title1">Pediatech is a research and development organization dedicated to the advancement of pediatric medicines.</h6>
             </div>
 
-            <div class="col-md-12">
+            <div class="col-md-12 hidden-sm hidden-xs">
                 <div class="wrap">
                     <div id="showcase" class="noselect">
-                        <div class="card">
-                            {{--<img src="/img/carousel2.jpg" class="img-responsive">--}}
-                            <img src="/img/suredose1.png" class="img-responsive">
-                            <h4 class="tech-font">Address Children’s Needs</h4>
-                            <p>
-                                Our formulations aim to address gaps in pediatric medications to improve children’s compliance and ease of administration.
-                            </p>
-                        </div>
-                        <div class="card">
-                            {{--<img src="/img/carousel3.jpg" class="img-responsive">--}}
-                            <img src="/img/zincplus1.png" class="img-responsive">
-                            <h4 class="tech-font">Improve products</h4>
-                            <p>
-                                Using various technologies that we’ve developed, our products improve on existing formulations in order to cater to children’s specific needs such as taste and simpler dosing formats.
-                            </p>
-                        </div>
-                        <div class="card">
-                            {{--<img src="/img/carousel1.jpg" class="img-responsive">--}}
-                            <img src="/img/tasterite-kid.png" class="img-responsive">
-                            <h4 class="tech-font">Easier for Everyone</h4>
-                            <p>
-                                Our products aim to make the lives of children, parents and healthcare providers easier.
-                            </p>
-                        </div>
+                        @foreach( $arraySlides as $arraySlide )
+                            <div class="card">
+                                <img src="/img/{{ $arraySlide['img-src'] }}" class="img-responsive">
+                                <h4 class="tech-font">{{ $arraySlide['img-title'] }}</h4>
+                                <p>
+                                    {{ $arraySlide['img-description'] }}
+                                </p>
+                            </div>
+                        @endforeach
                     </div>
                 </div>
             </div>
 
+            <div class="row align-center">
+                @foreach( $arraySlides as $arraySlide )
+                <div class="col-sm-4 hidden-md hidden-lg card col-slides-mt" style="width: 100%;">
+                    <img src="/img/{{ $arraySlide['img-src'] }}" class="img-responsive img-rowed">
+                    <h4 class="tech-font">{{ $arraySlide['img-title'] }}</h4>
+                    <p>
+                        {{ $arraySlide['img-description'] }}
+                    </p>
+                </div>
+                @endforeach
+            </div>
         </div>
 
 

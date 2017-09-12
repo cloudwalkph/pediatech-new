@@ -12,7 +12,26 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+
+    $arraySlides = [
+        [
+            'img-src' => 'suredose1.png',
+            'img-title' => 'Address Children’s Needs',
+            'img-description' => 'Our formulations aim to address gaps in pediatric medications to improve children’s compliance and ease of administration.',
+        ],
+        [
+            'img-src' => 'zincplus1.png',
+            'img-title' => 'Improve products',
+            'img-description' => 'Using various technologies that we’ve developed, our products improve on existing formulations in order to cater to children’s specific needs such as taste and simpler dosing formats.',
+        ],
+        [
+            'img-src' => 'tasterite-kid.png',
+            'img-title' => 'Easier for Everyone',
+            'img-description' => 'Our products aim to make the lives of children, parents and healthcare providers easier.',
+        ]
+    ];
+
+    return view('home')->with(compact('arraySlides'));
 });
 
 Route::get('/about-us', function () {
