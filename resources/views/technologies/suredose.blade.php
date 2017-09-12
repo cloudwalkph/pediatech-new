@@ -38,8 +38,8 @@
                     <div class="row">
                         {{--<div class="col-md-12 video">--}}
 
-                        <p style="color:#696969; font-size: 18px; text-align: center;"><b>Products using the SureDose Technology</b></p>
-                        <p style="color:#696969; font-size: 18px; text-align: center;">• Rimaped (Rifampicin) Suspension</p>
+                        <p style="color:#696969; font-size: 18px;"><b>Products using the SureDose Technology</b></p>
+                        <p style="color:#696969; font-size: 18px;">• Rimaped (Rifampicin) Suspension</p>
                     </div>
                 </div>
             </div>
@@ -52,7 +52,7 @@
 
                 <div class="row">
                     <div class="col-md-4 img-footer">
-                        <img src="/img/logo-pedia1.png" alt="logo" height="125" style="padding: 25px;">
+                        <img src="/img/footer_new_logo.png" alt="logo" height="125">
                     </div>
                     <div class="col-md-4">
                         <a href="http://www.cloudwalkdigital.com" target="_blank">

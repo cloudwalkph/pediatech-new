@@ -19,10 +19,6 @@ Route::get('/about-us', function () {
     return view('about');
 });
 
-//Route::get('/contact-us', function () {
-//    return view('contact');
-//});
-
 Route::get('/technologies', function () {
     return view('technologies');
 });
@@ -61,4 +57,20 @@ Route::get('/technologies/toothfriendly', function (){
 
 Route::get('/technologies/zincplus', function (){
     return view('technologies/zincplus');
+});
+
+Route::get('/products/immunped', function (){
+    return view('products/immunped');
+});
+
+Route::get('/products/kastair_eztab', function (){
+    return view('products/kastair_eztab');
+});
+
+Route::get('/products/biogesic', function (){
+    return view('products/biogesic');
+});
+
+Route::get('/products/rimaped', function (){
+    return view('products/rimaped');
 });

@@ -21,6 +21,13 @@
                             <p style="color:#696969; font-size: 18px; margin-top: -10px;">TasteRite utilizes a polymer system that prevents the interaction of the bad-tasting drug particles and the taste receptors on the tongue, resulting in a better tasting liquid medicine. This polymer system rapidly releases the drug in the stomach, allowing the drug to rapidly dissolve for easy absorption (US patent: US 7,107,572 B2).</p>
                         </div>
                         <div class="row">
+                            <div class="col-md-12 tech_video">
+                                <div class="iframe embed-responsive embed-responsive-16by9">
+                                    <iframe width="845" height="560" src="https://www.youtube.com/embed/mtHaRQuDmko" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
                             <span><b style="color:#696969;">TasteRite in the Real World</b></span>
                         </div>
                         <div class="row">
@@ -38,20 +45,27 @@
                         </div>
                     </div>
                     <div class="col-md-12" style="    margin-top: -75px;">
-                            <img src="/img/tech/taste-rite.png" alt="Testerite" width="1000" height="694">
+                            <img src="/img/tech/taste-rite.png" alt="Testerite" width="1020" height="694" style="margin-left: 40px;">
                     </div>
                     <div class="col-md-12">
-                            <img src="/img/tech/taste-rite2.png" alt="Testerite" width="1000" height="694">
-                        <p style="color:#696969; font-size: 18px; margin-top: -32px; text-align: center;"><b>Products using the TasteRite Technology</b></p>
-                            <p style="color:#696969; font-size: 18px; text-align: center;">• Biogesic (Paracetamol) TasteRite</br>
-                            • Solmux (Carbocisteine) TasteRite</br>
-                            • Dolan (Ibuprofen) TasteRite</br>
-                            • Asmalin (Salbutamol) TasteRite</br>
-                            • Allerkid (Cetirizine) TasteRite</br>
-                            • Alnix Plus (Cetrizine + Phenylephrine) TasteRite</br>
-                            • Nutrilin TasteRite</br>
-                            • Growee TasteRite
-                        </p>
+                            <img src="/img/tech/taste-rite2.png" alt="Testerite" width="1020" height="694" style="margin-left: 40px;">
+                        <p style="color:#696969; font-size: 18px; margin-top: -32px;"><b>Products using the TasteRite Technology</b></p>
+                            <p style="color:#696969; font-size: 18px;">
+                                •         Biogesic (Paracetamol) Syrup/Drops TasteRite</br>
+                                •         Solmux (Carbocisteine) Syrup/Drops TasteRite</br>
+                                •         Dolan (Ibuprofen) Suspension/ Drops TasteRite</br>
+                                •         Asmalin (Salbutamol) Syrup TasteRite</br>
+                                •         Asmalin Broncho (Salbutamol + Guaifenesin) Syrup TasteRite</br>
+                                •         Allerkid (Cetirizine) Syrup/Drops TasteRite</br>
+                                •         Allerzet (Levocetirizine) Syrup TasteRite</br>
+                                •         Alnix Plus (Cetrizine + Phenylephrine) Syrup TasteRite</br>
+                                •         Loraped (Loratadine + Phenylephrine) Syrup TasteRite</br>
+                                •         Expel Syrup (Ambroxol) Syrup/ Drops TasteRite</br>
+                                •         Nutrilin Syrup/Drops TasteRite</br>
+                                •         Growee Syrup/Drops TasteRite</br>
+                                •         Tiki-Tiki Star Syrup TasteRite</br>
+
+                            </p>
                     </div>
 
                 </div>
@@ -65,7 +79,7 @@
 
                 <div class="row">
                     <div class="col-md-4 img-footer">
-                        <img src="/img/logo-pedia1.png" alt="logo" height="125" style="padding: 25px;">
+                        <img src="/img/footer_new_logo.png" alt="logo" height="125">
                     </div>
                     <div class="col-md-4">
                         <a href="http://www.cloudwalkdigital.com" target="_blank">

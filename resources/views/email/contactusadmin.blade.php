@@ -328,7 +328,7 @@
                 <table cellspacing="0" cellpadding="0" width="800" class="w320">
                     <tr>
                         <td style="font-size: 32px; font-weight: 600; line-height: normal; color: #333; letter-spacing: 1.5pt; text-transform: uppercase;">
-                            Synapse Inquiry
+                            Pediatech Inquiry
                         </td>
                     </tr>
                     <tr>

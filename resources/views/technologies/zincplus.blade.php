@@ -26,7 +26,8 @@
                             </div>
                         </div>
                         <div class="row" style="margin-top: 10px">
-                            <p style="color:#696969; font-size: 18px; margin-top: -10px;">The Problem with Combining Vitamin C and Zinc There are a lot of challenges in combining vitamin C and zinc in pediatric liquid medications such as syrup and drops. Stability of the formulation is the biggest issue. Vitamin C degrades rapidly in the presence of divalent metal ions such as zinc. In one experiment, zinc doubled the rate of vitamin C degradation (Fig. 1). Further, zinc also gives the liquid medication an astringent, metallic and unpleasant taste.</p>
+                            <span><b style="color:#696969;">The Problem with Combining Vitamin C and Zinc</b></span>
+                            <p style="color:#696969; font-size: 18px; margin-top: -10px;">There are a lot of challenges in combining vitamin C and zinc in pediatric liquid medications such as syrup and drops. Stability of the formulation is the biggest issue. Vitamin C degrades rapidly in the presence of divalent metal ions such as zinc. In one experiment, zinc doubled the rate of vitamin C degradation (Fig. 1). Further, zinc also gives the liquid medication an astringent, metallic and unpleasant taste.</p>
                         </div>
                         <div class="row">
                             <span><b style="color:#696969;">Fig. 1. Assay of Vitamin C with and without Zinc in a liquid format </b></span>
@@ -61,8 +62,8 @@
                         </div>
                     </div>
                     <div class="row">
-                        <p style=" color:#696969; font-size: 18px; margin-top: 10px; text-align: center;"><b>ZincPlus in the Real World</b></p>
-                            <p style=" color:#696969; font-size: 18px; text-align: center;">Products using the ZincPlus Technology</br>
+                        <p style=" color:#696969; font-size: 18px; margin-top: 10px;"><b>ZincPlus in the Real World</b></p>
+                            <p style=" color:#696969; font-size: 18px;">Products using the ZincPlus Technology</br>
                             • Immunped syrup</br>
                             • Ceelin Plus syrup and drops</br>
                             • Ceelin Plus chewables
@@ -79,7 +80,7 @@
 
                 <div class="row">
                     <div class="col-md-4 img-footer">
-                        <img src="/img/logo-pedia1.png" alt="logo" height="125" style="padding: 25px;">
+                        <img src="/img/footer_new_logo.png" alt="logo" height="125">
                     </div>
                     <div class="col-md-4">
                         <a href="http://www.cloudwalkdigital.com" target="_blank">

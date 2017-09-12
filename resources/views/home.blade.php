@@ -3,13 +3,13 @@
 @section('content')
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('img/final.png')">
+    <header class="intro-header banner-image" style="">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="site-heading">
-                        <h1 class="tech-font">PEDIATECH<sup>TM</sup></h1>
-                        <span class="subheading">INNOVATIVE SOLUTIONS IN CHILDCARE</span> <br>
+                    <div class="site-heading mobile">
+                        <h1 class="tech-font ">PEDIATECH<sup>®</sup></h1>
+                        <span class="subheading mobile1">INNOVATIVE SOLUTIONS IN CHILDCARE</span> <br>
                         <span class="subheading">PediaTech aims to make pediatric medicines better.</span> <br>
                         {{--<a type="button" class="btn btn-primary btn-lg lmorebtn" href="/about-us">LEARN MORE</a>--}}
                         <a class="btn btn-transparent" href="/about-us">Learn More</a>
@@ -48,7 +48,7 @@
     <div id="main">
         <div class="container">
             <div class="col">
-                <h1 class="slider_title">THE LATEST ON MEDICINE TECHNOLOGY</h1>
+                <h6 class="slider_title1">Pediatech is a research and development organization dedicated to the advancement of pediatric medicines.</h6>
             </div>
 
             <div class="col-md-12">
@@ -92,7 +92,7 @@
 
                 <div class="row">
                     <div class="col-md-4 img-footer">
-                        <img src="img/logo-pedia1.png" alt="logo" height="125" style="padding: 25px;">
+                        <img src="img/footer_new_logo.png" alt="logo" height="125">
                     </div>
                     <div class="col-md-4">
                         <a href="http://www.cloudwalkdigital.com" target="_blank">

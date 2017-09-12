@@ -70,9 +70,9 @@ body {
 
 .intro-header .site-heading h1 sup {
     top: -58px;
-    font-size: 16px;
+    font-size: 25px;
 }
-.intro-header .site-heading, .intro-header .page-heading {
+.intro-header .intro-header .page-heading {
     text-align: left;
 }
 
@@ -97,8 +97,29 @@ body {
     height: 110vh;
     min-height: 1100px;
     position: relative;
+    /*margin-top: -24px;*/
+}
+
+#main1 {
+    background-size: 100% auto;
+    height: 110vh;
+    min-height: 1775px;
+    position: relative;
     margin-top: -24px;
 }
+
+#main1.kastair_eztab{
+    min-height: 851px;
+}
+
+#main1.product_biogesic{
+    min-height: 851px;
+}
+
+#main1.product_rimaped{
+    min-height: 851px;
+}
+
 .carousel-text {
     text-align: center;
     margin-top: -160px;
@@ -279,7 +300,8 @@ footer .novex .youtube {
 
 #main.tasterite  {
     padding-top: 80px;
-    min-height: 3035px;
+    min-height: 3650px;
+    /*min-height: 3035px;*/
     /*min-height: 3189px;*/
     /*min-height: 1200px;*/
 }
@@ -296,6 +318,12 @@ footer .novex .youtube {
     /*min-height: 4305px;*/
     /*min-height: 1200px;*/
 }
+
+#main.product_immunped{
+    min-height: 1745px;
+
+}
+
 .video{
     width: 67%;
     margin-left: 187px;
@@ -541,6 +569,11 @@ footer .novex .youtube {
     margin-top: 65px;
 }
 
+.sup{
+    top: -20px;
+    font-size: 25px;
+}
+
 /*Pediatech*/
 
 .banner1_content{
@@ -569,3 +602,43 @@ footer .novex .youtube {
 
 }
 
+.slider_title1{
+    font-family: 'AvantGarde-Md-BT';
+    color: #00a3de;
+    margin-top: 48px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+@media only screen and (min-width: 321px) {
+    .banner-image{
+        background-image: url('../img/final.png');
+        /*padding: 280px 0;*/
+
+    }
+    .site-heading{
+        text-align: left !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .banner-image{
+        background-image: url('../img/final_mobile.png');
+        /*padding: 280px 0;*/
+
+    }
+
+    .site-heading{
+        text-align: center;
+    }
+
+    .mobile{
+        margin-top: 40px;
+    }
+
+    .mobile1{
+        margin-bottom: -25px;
+    }
+}

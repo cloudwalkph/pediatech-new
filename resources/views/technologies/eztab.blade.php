@@ -19,13 +19,16 @@
                             <p style="color:#696969; font-size: 18px; margin-top: -10px;">EZTab technology makes medicines easy for young children to take away from home. EZTab technology powers tablets that readily disperse in a child’s mouth without the need for water in just a few seconds. The quick dissolving tablets provide immediate release of the active ingredients for absorption. No mess and no risk of choking with EZTab. Easy and safe anywhere.</p>
                         </div>
                     </div>
-
-                    <div class="col-md-12 tech_video">
-                        <div class="iframe embed-responsive embed-responsive-16by9">
-                            <iframe width="845" height="560" src="https://www.youtube.com/embed/rya4FVh_G9o" frameborder="0" allowfullscreen></iframe>
+                    <div class="row">
+                        <div class="col-md-12 tech_video">
+                            <div class="iframe embed-responsive embed-responsive-16by9">
+                                <iframe width="845" height="560" src="https://www.youtube.com/embed/rya4FVh_G9o" frameborder="0" allowfullscreen></iframe>
+                            </div>
                         </div>
-                        <p style="color:#696969; font-size: 18px; text-align: center;"><b>EZTab in the Real World</b></p>
-                            <p style="color:#696969; font-size: 18px; text-align: center;">Products using the EZTab Technology</br>
+                    </div>
+                    <div class="row">
+                        <p style="color:#696969; font-size: 18px;"><b>EZTab in the Real World</b></p>
+                            <p style="color:#696969; font-size: 18px;">Products using the EZTab Technology</br>
                             • Kastair EZTab (Motelukast)
                             </p>
                     </div>
@@ -40,7 +43,7 @@
 
                 <div class="row">
                     <div class="col-md-4 img-footer">
-                        <img src="/img/logo-pedia1.png" alt="logo" height="125" style="padding: 25px;">
+                        <img src="/img/footer_new_logo.png" alt="logo" height="125">
                     </div>
                     <div class="col-md-4">
                         <a href="http://www.cloudwalkdigital.com" target="_blank">

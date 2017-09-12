@@ -39,7 +39,7 @@
 
                 <div class="row">
                     <div class="col-md-4 img-footer">
-                        <img src="/img/logo-pedia1.png" alt="logo" height="125" style="padding: 25px;">
+                        <img src="/img/footer_new_logo.png" alt="logo" height="125">
                     </div>
                     <div class="col-md-4">
                         <a href="http://www.cloudwalkdigital.com" target="_blank">

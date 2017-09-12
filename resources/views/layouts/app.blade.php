@@ -57,7 +57,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand" href="/">
-                    <img src="/img/logo.png" alt="logo" height="80">
+                    <img src="/img/new_logo.png" alt="logo" height="130">
                 </a>
             </div>
 
@@ -70,15 +70,22 @@
                     <li class="dropdown">
                         <a href="#" id="technologies" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Technologies <span class="caret"></span></a>
                         <ul class="dropdown-menu text-center" data-hover="dropdown" >
-                            <li class="nav2" data-menuanchor="firstPage"><a class="nav-link {{ request()->fullUrl() == Request::root().'/technologies/eztab' ? 'activeMenus' : '' }}" href="/technologies/eztab">EZTab</a></li>
-                            <li class="nav2" data-menuanchor="secondPage"><a class="nav-link {{ request()->is('suredose') ? 'activeMenus' : '' }}" href="/technologies/suredose">SureDose</a></li>
-                            <li class="nav2" data-menuanchor="3rdPage"><a class="nav-link {{ request()->is('tasterite') ? 'activeMenus' : '' }}" href="/technologies/tasterite">TasteRite</a></li>
-                            <li class="nav2" data-menuanchor="4thpage"><a class="nav-link {{ request()->is('toothfriendly') ? 'activeMenus' : '' }}" href="/technologies/toothfriendly">ToothFriendly</a></li>
                             <li class="nav2" data-menuanchor="lastPage"><a class="nav-link {{ request()->is('zincplus') ? 'activeMenus' : '' }}" href="/technologies/zincplus">ZincPlus</a></li>
+                            <li class="nav2" data-menuanchor="3rdPage"><a class="nav-link {{ request()->is('tasterite') ? 'activeMenus' : '' }}" href="/technologies/tasterite">TasteRite</a></li>
+                            <li class="nav2" data-menuanchor="secondPage"><a class="nav-link {{ request()->is('suredose') ? 'activeMenus' : '' }}" href="/technologies/suredose">SureDose</a></li>
+                            <li class="nav2" data-menuanchor="firstPage"><a class="nav-link {{ request()->fullUrl() == Request::root().'/technologies/eztab' ? 'activeMenus' : '' }}" href="/technologies/eztab">EZTab</a></li>
+                            {{--<li class="nav2" data-menuanchor="4thpage"><a class="nav-link {{ request()->is('toothfriendly') ? 'activeMenus' : '' }}" href="/technologies/toothfriendly">ToothFriendly</a></li>--}}
+
                         </ul>
                     </li>
                     <li>
-                        <a href="/products" id="products">Featured Products</a>
+                        <a href="/products" id="products" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Featured Products<span class="caret"></span></a>
+                        <ul class="dropdown-menu text-center" data-hover="dropdown" >
+                            <li class="nav2" data-menuanchor="firstPage"><a class="nav-link {{ request()->fullUrl() == Request::root().'/products/immunped' ? 'activeMenus' : '' }}" href="/products/immunped">Immunped</a></li>
+                            <li class="nav2" data-menuanchor="3rdPage"><a class="nav-link {{ request()->is('biogesic') ? 'activeMenus' : '' }}" href="/products/biogesic">Biogesic</a></li>
+                            <li class="nav2" data-menuanchor="4thpage"><a class="nav-link {{ request()->is('rimaped') ? 'activeMenus' : '' }}" href="/products/rimaped">Rimaped</a></li>
+                            <li class="nav2" data-menuanchor="secondPage"><a class="nav-link {{ request()->is('kastair_eztab') ? 'activeMenus' : '' }}" href="/products/kastair_eztab">Kastair EZTab</a></li>
+                        </ul>
                     </li>
                     <li>
                         <a href="/contact-us" id="contactus">Contacts</a>

@@ -23,6 +23,11 @@ class ContactUsController extends Controller
 
         $input = $request->all();
 
-        Mail::to('bianca.working@gmail.com')->send(new ContactUsAdmin($input));
+//        Mail::to('jotan@unilab.com.ph' , 'c_MHsu@unilab.com.ph')->send(new ContactUsAdmin($input));
+        $emails = ['laiza.m@cloudwalkdigital.com' , 'jotan@unilab.com.ph' , 'c_MHsu@unilab.com.ph'];
+
+        foreach( $emails as $email) {
+            Mail::to($email)->send(new ContactUsAdmin($input));
+}
     }
 }
