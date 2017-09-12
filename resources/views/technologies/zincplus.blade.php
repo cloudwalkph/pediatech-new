@@ -6,14 +6,14 @@
     <div id="main" class="zincplus">
         <div class="grey-overlay"></div>
         <div class="container">
-            <div class="row">
+            <div class="">
                 <div class="col-lg-12 col-sm-12 tech-content">
                     <div class="">
                         <h1 class="text-center tech_logo"><img src="/img/zinc-plus-logo.png" alt="Zincplus" height="40"></h1>
                         <div class="row" style="margin-top: 40px;">
-                        <span><b style="color:#696969;">Vitamin C and Zinc Immunity Combination</b></span>
-                        <p style="color:#696969; font-size: 18px; margin-top: -10px;">The immune system effectively defends the body against attacks by “foreign” invaders. However, there are moments when the immune system weakens and fails to keep disease-causing microorganisms out. In light of this, the immune system can always use a boost.</p>
-                        <p style="color:#696969; font-size: 18px; margin-top: -10px;">Vitamin C and zinc is the ideal combination to enhance and balance innate immunity and adaptive immunity for optimal immune protection. Studies have shown that they significantly reduce the symptoms of the common cold.</p>
+                            <span><b style="color:#696969;">Vitamin C and Zinc Immunity Combination</b></span>
+                            <p style="color:#696969; font-size: 18px; margin-top: -10px;">The immune system effectively defends the body against attacks by “foreign” invaders. However, there are moments when the immune system weakens and fails to keep disease-causing microorganisms out. In light of this, the immune system can always use a boost.</p>
+                            <p style="color:#696969; font-size: 18px; margin-top: -10px;">Vitamin C and zinc is the ideal combination to enhance and balance innate immunity and adaptive immunity for optimal immune protection. Studies have shown that they significantly reduce the symptoms of the common cold.</p>
                         </div>
                         <div class="row">
                             <span><b style="color:#696969;">Dual immune defenses of Vitamin C and Zinc, watch the video below.</b></span>
@@ -34,7 +34,8 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <img src="/img/tech/zinc-plus-2p3.png" alt="Suredose" width="945" height="660" style="margin-left: 91px;">
+                                {{--<img src="/img/tech/zinc-plus-2p3.png" alt="Suredose" width="945" height="660" style="margin-left: 91px;">--}}
+                                <img class="imgsize" src="/img/tech/zinc-plus-2p3.png" alt="Suredose" >
                             </div>
                         </div>
                         <div class="row">
@@ -44,13 +45,13 @@
                         <div class="row">
                             <div class="col-md-12 ">
                                 <span><b style="color:#696969;">Fig. 2. Assay of Vitamin C</b></span>
-                                    <img class="" src="/img/tech/zinc-plus-2p2.png" alt="Suredose" width="945" height="660" style="margin-left: 91px;">
+                                    <img class="imgsize" src="/img/tech/zinc-plus-2p2.png" alt="Suredose">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12 ">
                                 <span><b style="color:#696969;">Fig. 3. Astringency Test</b></span>
-                                    <img class="" src="/img/tech/zinc-plus3.png" alt="Suredose" width="945" height="660" style="margin-left: 91px;">
+                                    <img class="imgsize" src="/img/tech/zinc-plus3.png" alt="Suredose">
                             </div>
                         </div>
                     </div>
