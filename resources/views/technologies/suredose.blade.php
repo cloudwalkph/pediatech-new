@@ -6,7 +6,7 @@
     <div id="main" class="suredose">
         <div class="grey-overlay"></div>
         <div class="container">
-            <div class="row">
+            <div class="">
                 <div class="col-lg-12 col-sm-12 tech-content">
                     <div class="">
                         <h1 class="text-center tech_logo"><img src="/img/suredose-logo.png" alt="Suredose" height="40"></h1>
@@ -22,7 +22,8 @@
                         <div class="row">
                             <div class="col-md-12 tech_video">
                                 <div class="iframe embed-responsive embed-responsive-16by9">
-                                    <iframe  width="1000" height="694" src="https://www.youtube.com/embed/6OvQVVfOHCA" frameborder="0" allowfullscreen></iframe>
+                                    {{--<iframe  width="1000" height="694" src="https://www.youtube.com/embed/6OvQVVfOHCA" frameborder="0" allowfullscreen></iframe>--}}
+                                    <iframe src="https://www.youtube.com/embed/6OvQVVfOHCA" frameborder="0" allowfullscreen></iframe>
                                 </div>
                             </div>
                         </div>
@@ -31,9 +32,13 @@
                             <span><b style="color:#696969;">SureDose in the Real World</b></span>
                         </div>
                     </div>
-                    <div class="col-md-12">
-                        <img src="/img/tech/suredose.png" alt="Suredose" width="1015" height="694" style="margin-left: 40px;">
+                    <div class="row">
+                        <div class="col-md-12">
+                            {{--<img src="/img/tech/suredose.png" alt="Suredose" width="1015" height="694" style="margin-left: 40px;">--}}
+                            <img class="imgsize" src="/img/tech/suredose.png" alt="Suredose">
+                        </div>
                     </div>
+
 
                     <div class="row">
                         {{--<div class="col-md-12 video">--}}

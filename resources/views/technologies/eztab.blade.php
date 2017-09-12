@@ -6,7 +6,7 @@
     <div id="main" class="eztab">
         <div class="grey-overlay"></div>
         <div class="container">
-            <div class="row">
+            <div class="">
                 <div class="col-lg-12 col-sm-12 tech-content">
                     <div class="">
                         <h1 class="text-center tech_logo"><img src="/img/eztab-logo.png" alt="EZTab" height="40"></h1>

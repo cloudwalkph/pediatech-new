@@ -18,6 +18,7 @@
     <link href="/css/clean-blog.css" rel="stylesheet">
     <link href="/css/fonts.css" rel="stylesheet">
     <link href="/css/styles.css" rel="stylesheet">
+    <link href="/css/styles.scss" rel="stylesheet/scss" type="text/css">
 
 
     <!-- Custom Fonts -->

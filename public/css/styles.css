@@ -279,9 +279,14 @@ footer .novex .youtube {
 .tech_video{
     /*width: 70%;*/
     /*margin-left: -25px;*/
-    width: 73%;
-    margin-left: 151px;
+    width: 75%;
+    margin-left: 153px;
     margin-bottom: 40px;
+}
+
+.imgsize{
+    width: 94%;
+    margin-left: 43px;
 }
 
 #main.eztab  {
@@ -640,5 +645,35 @@ footer .novex .youtube {
 
     .mobile1{
         margin-bottom: -25px;
+    }
+
+    .tech_video{
+        /* width: 70%; */
+        /* margin-left: -25px; */
+        margin-left: auto;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .imgsize{
+        width: 100%;
+        margin-left: auto;
+    }
+
+    .text{
+        padding: 5%;
+    }
+
+    #main.eztab{
+        min-height: 1870px;
+    }
+
+    #main.zincplus{
+        min-height: 3994px;
+        padding-top: auto;
+    }
+
+    #main.suredose{
+        min-height: 2380px;
     }
 }
