@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- Main Content -->
-    <div id="main1" class="product_rimaped">
+    <div class="product_rimaped">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-sm-12 tech-content">

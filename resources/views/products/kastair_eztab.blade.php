@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- Main Content -->
-    <div id="main1" class="kastair_eztab">
+    <div class="kastair_eztab">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-sm-12 tech-content">
