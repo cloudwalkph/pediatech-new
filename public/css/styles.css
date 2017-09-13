@@ -638,10 +638,28 @@ footer .novex .youtube {
 
 }
 
+@media only screen and (min-width: 359px) {
+    .tech_video {
+        width: 89%;
+        margin-left: 21px;
+        margin-bottom: 40px;
+    }
+    .imgsize {
+        width: 94%;
+        margin-left: 15px;
+    }
+}
+
 @media only screen and (min-width: 321px) {
     .banner-image{
-        background-image: url('../img/final.png');
+        /* background-image: url('../img/final.png'); */
         /*padding: 280px 0;*/
+        background: url(../img/final.png) no-repeat 80% center;
+        /* padding: 280px 0; */
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 
     }
     .site-heading{
