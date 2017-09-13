@@ -1,3 +1,6 @@
+.container-fluid {
+    padding:0;
+}
 .intro-header {
     height: 80vh;
     min-height: 700px;
@@ -671,7 +674,7 @@ footer .novex .youtube {
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media (max-width: 320px) {
     .banner-image{
         background-image: url('../img/final_mobile.png');
         /*padding: 280px 0;*/
@@ -680,6 +683,7 @@ footer .novex .youtube {
 
     .site-heading{
         text-align: center;
+        padding: 110px 0 50px !important;
     }
 
     .mobile{
@@ -740,5 +744,11 @@ footer .novex .youtube {
          width: auto;
          margin-left: auto;
          margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:1379px){
+    .wrap {
+        min-height: 604px;
     }
 }
