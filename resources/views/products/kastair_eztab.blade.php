@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-lg-12 col-sm-12 tech-content">
                         <div class="col-md-6">
-                            <h1 class="text-center" style="margin-left: -50px;"><img src="/img/product/kastair_eztab.png" alt="product_kastair_eztab"></h1>
+                            <h1 class="text-center" style="margin-left: -50px;"><img class="fw" src="/img/product/kastair_eztab.png" alt="product_kastair_eztab"></h1>
                         </div>
                         <div class="col-md-6" style="margin-top: 120px;">
                             <h1 style="color:#696969;">KASTAIR EZTAB<sup class="sup">®</sup></h1>

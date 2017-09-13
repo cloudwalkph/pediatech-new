@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-lg-12 col-sm-12 tech-content">
                     <div class="col-md-6">
-                        <h1 class="text-center"><img src="/img/product/immunped.png" alt="product_immunped"></h1>
+                        <h1 class="text-center"><img class="fw" src="/img/product/immunped.png" alt="product_immunped"></h1>
                     </div>
                     <div class="col-md-6" style="margin-top: 120px;">
                         <h1 style="color:#696969;">IMMUNPED<sup class="sup">®</sup></h1>

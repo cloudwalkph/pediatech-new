@@ -109,7 +109,7 @@ body {
 #main1 {
     background-size: 100% auto;
     height: 110vh;
-    min-height: 1775px;
+    /* min-height: 1775px; */
     position: relative;
     margin-top: -24px;
 }
@@ -751,4 +751,8 @@ footer .novex .youtube {
     .wrap {
         min-height: 604px;
     }
+}
+
+.fw {
+    width:100%;
 }
