@@ -44,32 +44,38 @@
                 </div>
             </div>
             <div class="row text">
-                <span><b style="color:#696969;">Taste tests were also conducted on parents and pediatricians, and the results are as follows:</b></span>
+                <div class="col-md-12 col-sm-12">
+                    <span><b style="color:#696969;">Taste tests were also conducted on parents and pediatricians, and the results are as follows:</b></span>
+                </div>
             </div>
-            <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
                     {{--<img src="/img/tech/taste-rite.png" alt="Testerite" width="1020" height="694" style="margin-left: 40px;">--}}
                     <img class="imgsize" src="/img/tech/taste-rite.png" alt="Testerite">
+                </div>
             </div>
-            <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
                     <img class="imgsize" src="/img/tech/taste-rite2.png" alt="Testerite" style="">
-                <p style="color:#696969; font-size: 18px;"><b>Products using the TasteRite Technology</b></p>
-                    <p style="color:#696969; font-size: 18px;">
-                        •         Biogesic (Paracetamol) Syrup/Drops TasteRite</br>
-                        •         Solmux (Carbocisteine) Syrup/Drops TasteRite</br>
-                        •         Dolan (Ibuprofen) Suspension/ Drops TasteRite</br>
-                        •         Asmalin (Salbutamol) Syrup TasteRite</br>
-                        •         Asmalin Broncho (Salbutamol + Guaifenesin) Syrup TasteRite</br>
-                        •         Allerkid (Cetirizine) Syrup/Drops TasteRite</br>
-                        •         Allerzet (Levocetirizine) Syrup TasteRite</br>
-                        •         Alnix Plus (Cetrizine + Phenylephrine) Syrup TasteRite</br>
-                        •         Loraped (Loratadine + Phenylephrine) Syrup TasteRite</br>
-                        •         Expel (Ambroxol) Syrup/ Drops TasteRite</br>
-                        •         Nutrilin Syrup/Drops TasteRite</br>
-                        •         Growee Syrup/Drops TasteRite</br>
-                        •         Tiki-Tiki Star Syrup TasteRite</br>
+                    <p style="color:#696969; font-size: 18px;"><b>Products using the TasteRite Technology</b></p>
+                        <p style="color:#696969; font-size: 18px;">
+                            •         Biogesic (Paracetamol) Syrup/Drops TasteRite</br>
+                            •         Solmux (Carbocisteine) Syrup/Drops TasteRite</br>
+                            •         Dolan (Ibuprofen) Suspension/ Drops TasteRite</br>
+                            •         Asmalin (Salbutamol) Syrup TasteRite</br>
+                            •         Asmalin Broncho (Salbutamol + Guaifenesin) Syrup TasteRite</br>
+                            •         Allerkid (Cetirizine) Syrup/Drops TasteRite</br>
+                            •         Allerzet (Levocetirizine) Syrup TasteRite</br>
+                            •         Alnix Plus (Cetrizine + Phenylephrine) Syrup TasteRite</br>
+                            •         Loraped (Loratadine + Phenylephrine) Syrup TasteRite</br>
+                            •         Expel (Ambroxol) Syrup/ Drops TasteRite</br>
+                            •         Nutrilin Syrup/Drops TasteRite</br>
+                            •         Growee Syrup/Drops TasteRite</br>
+                            •         Tiki-Tiki Star Syrup TasteRite</br>
 
+                        </p>
                     </p>
-                </p>
+                </div>
             </div>
         </div>
     </div>
