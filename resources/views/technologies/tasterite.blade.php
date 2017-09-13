@@ -62,7 +62,7 @@
                                         •         Allerzet (Levocetirizine) Syrup TasteRite</br>
                                         •         Alnix Plus (Cetrizine + Phenylephrine) Syrup TasteRite</br>
                                         •         Loraped (Loratadine + Phenylephrine) Syrup TasteRite</br>
-                                        •         Expel Syrup (Ambroxol) Syrup/ Drops TasteRite</br>
+                                        •         Expel (Ambroxol) Syrup/ Drops TasteRite</br>
                                         •         Nutrilin Syrup/Drops TasteRite</br>
                                         •         Growee Syrup/Drops TasteRite</br>
                                         •         Tiki-Tiki Star Syrup TasteRite</br>

@@ -305,7 +305,7 @@ footer .novex .youtube {
 
 #main.tasterite  {
     padding-top: 80px;
-    min-height: 3650px;
+    min-height: 3745px;
     /*min-height: 3035px;*/
     /*min-height: 3189px;*/
     /*min-height: 1200px;*/
@@ -319,7 +319,7 @@ footer .novex .youtube {
 
 #main.zincplus  {
     padding-top: 80px;
-    min-height: 4530px;
+    min-height: 4762px;
     /*min-height: 4305px;*/
     /*min-height: 1200px;*/
 }
@@ -538,7 +538,8 @@ footer .novex .youtube {
         font-size: 18px;
     }
     .intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading {
-        padding: 150px 0 50px;
+        /*padding: 150px 0 50px;*/
+        padding: 395px 0 50px;
     }
     .intro-header .site-heading h1, .about-products h1, .about-science h1 {
         font-size: 55px;
@@ -562,6 +563,26 @@ footer .novex .youtube {
     .intro-header .site-heading h1 sup {
         top: -35px;
         font-size: 14px;
+    }
+
+    #main.zincplus {
+        padding-top: 80px;
+        min-height: 3720px;
+    }
+
+    #main.tasterite {
+        padding-top: 80px;
+        min-height: 3534px;
+    }
+
+    #main.suredose {
+        padding-top: 80px;
+        min-height: 2073px;
+    }
+
+    #main.eztab {
+        padding-top: 80px;
+        min-height: 1576px;
     }
 }
 
@@ -640,7 +661,8 @@ footer .novex .youtube {
     }
 
     .mobile{
-        margin-top: 40px;
+        /*margin-top: 40px;*/
+        margin-top: 210px;
     }
 
     .mobile1{
@@ -669,11 +691,32 @@ footer .novex .youtube {
     }
 
     #main.zincplus{
-        min-height: 3994px;
+        min-height: 3895px;
         padding-top: auto;
     }
 
     #main.suredose{
         min-height: 2380px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .banner-image{
+        background-image: url('../img/final_mobile.png');
+        /*padding: 280px 0;*/
+
+    }
+
+    .imgsize{
+        width: 100%;
+        margin-left: auto;
+    }
+
+    .tech_video {
+         width: auto;
+         margin-left: auto;
+         width: auto;
+         margin-left: auto;
+         margin-bottom: 50px;
     }
 }
