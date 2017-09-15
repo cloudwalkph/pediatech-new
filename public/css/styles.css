@@ -54,7 +54,18 @@ body {
 .intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading {
     color: #696969;
 }
+
+.intro-header .site-heading1, .intro-header .post-heading, .intro-header .page-heading {
+    color: #696969;
+}
+
 .intro-header .site-heading h1 {
+    /*font-size: 110px;*/
+    font-size: 81px;
+    /*font-family: 'ITC-bold';*/
+}
+
+.intro-header .site-heading1 h1 {
     /*font-size: 110px;*/
     font-size: 81px;
     /*font-family: 'ITC-bold';*/
@@ -72,9 +83,15 @@ body {
 }
 
 .intro-header .site-heading h1 sup {
+     top: -58px;
+     font-size: 25px;
+ }
+
+.intro-header .site-heading1 h1 sup {
     top: -58px;
     font-size: 25px;
 }
+
 .intro-header .intro-header .page-heading {
     text-align: left;
 }
@@ -106,9 +123,14 @@ body {
     /*margin-top: -24px;*/
 }
 
+#main_about{
+    background-color:transparent;
+    position: relative;
+}
+
 #main1 {
     background-size: 100% auto;
-    height: 110vh;
+    height: 101vh;
     /* min-height: 1775px; */
     position: relative;
     margin-top: -24px;
@@ -205,6 +227,10 @@ footer .novex .youtube {
     /*color: #2b734c;*/
     color: #00a3de;
     letter-spacing: 7px;
+}
+
+.bio{
+    margin-top: 120px
 }
 
 /******** About page *********/
@@ -495,14 +521,14 @@ footer .novex .youtube {
     }
     #main {
         /*min-height: 1300px;*/
-        min-height: 1599px;
+        /*min-height: 1599px;*/
     }
     footer {
         padding: 10px 0 0 0;
     }
     #main.technologies, #main.contact-us {
         height: auto;
-        padding-bottom: 400px;
+        /*padding-bottom: 400px;*/
     }
     .navbar-default .navbar-toggle {
          border-color: transparent; 
@@ -547,10 +573,19 @@ footer .novex .youtube {
     .intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading {
         /*padding: 150px 0 50px;*/
         padding: 395px 0 50px;
+        /*padding: 182px 0 50px;*/
+    }
+   .site-heading1{
+        padding: 182px 0 50px;
     }
     .intro-header .site-heading h1, .about-products h1, .about-science h1 {
         font-size: 55px;
     }
+
+    .intro-header .site-heading1 h1, .about-products h1, .about-science h1 {
+        font-size: 55px;
+    }
+
     .slide-products .item .item-container {
         padding: 100px 0;
     }
@@ -562,34 +597,50 @@ footer .novex .youtube {
     }
     #main.about-us {
         height: auto;
-        padding-bottom: 400px;
+        /*padding-bottom: 400px;*/
+        padding-bottom: 178px;
     }
     #main.contact-us .text-green, #main.technologies .tech-content h1 {
         font-size: 50px;
     }
     .intro-header .site-heading h1 sup {
+         top: -35px;
+         font-size: 14px;
+     }
+
+    .intro-header .site-heading1 h1 sup {
         top: -35px;
         font-size: 14px;
     }
 
     #main.zincplus {
         padding-top: 80px;
-        min-height: 3720px;
+        /*min-height: 3720px;*/
+        /*min-height: 3451px;*/
+        min-height: 3075px;
     }
 
     #main.tasterite {
         padding-top: 80px;
-        min-height: 3534px;
+        /*min-height: 3534px;*/
+        /*min-height: 3341px;*/
+        min-height: 3629px;
     }
 
     #main.suredose {
         padding-top: 80px;
-        min-height: 2073px;
+        /*min-height: 2073px;*/
+        min-height: 1673px;
     }
 
     #main.eztab {
         padding-top: 80px;
-        min-height: 1576px;
+        /*min-height: 1576px;*/
+        min-height: 1306px;
+    }
+
+    .bio{
+        margin-top: 30px;
     }
 }
 
@@ -647,8 +698,8 @@ footer .novex .youtube {
 
 @media only screen and (min-width: 359px) {
     .tech_video {
-        width: 89%;
-        margin-left: 21px;
+        /*width: 89%;*/
+        margin-left: 120px;
         margin-bottom: 40px;
     }
     .imgsize {
@@ -670,6 +721,10 @@ footer .novex .youtube {
 
     }
     .site-heading{
+         text-align: left !important;
+     }
+
+    .site-heading1{
         text-align: left !important;
     }
 }
@@ -682,6 +737,11 @@ footer .novex .youtube {
     }
 
     .site-heading{
+        text-align: center;
+        padding: 110px 0 50px !important;
+    }
+
+    .site-heading1{
         text-align: center;
         padding: 110px 0 50px !important;
     }

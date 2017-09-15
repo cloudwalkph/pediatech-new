@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.products')
 
 @section('content')
     <!-- Page Header -->
@@ -7,7 +7,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="site-heading">
+                    <div class="site-heading1">
                         <h1>PEDIATECH<sup>®</sup></h1>
                         {{--<span class="site-subheader">SAFER AND MORE EFFECTIVE DRUGS</span> <br><br>--}}
                         <span class="about-subheading">PediaTech<sup>®</sup> is a research and development organization dedicated to the advancement of pediatric healthcare by developing technologies and designing products specifically catering to children, and children’s medicine-taking habits. We aim to undertake common issues with children’s medicine from bad taste to difficult dosing instructions because the best medicines in the world would not work unless the medicines are taken by the kids at the prescribed dosage level at all times.</span>
@@ -19,7 +19,7 @@
     <!-- Main Content -->
     <div id="main" class="about-us">
         <div class="grey-overlay"></div>
-        <div class="separator-gradient"></div>
+        {{--<div class="separator-gradient"></div>--}}
         <div class="container">
             <div class="row">
                 <div class="col-md-12 about-science">
